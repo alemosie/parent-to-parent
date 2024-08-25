@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Facebook",
+    "link": "https://facebook.com",
+    "image": "images/social/facebook.svg"
+  },
+  {
+    "name": "Email",
+    "link": "mailto:alex@parent-to-parent.nl",
+    "image": "images/social/email.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://instagram.com",
+    "image": "images/social/instagram.svg"
+  }
+]
