@@ -3,11 +3,11 @@ permalink: pretty
 title: 'Parent to Parent'
 
 logo:
-  mobile: "images/logo/logo.png"
+  mobile: "images/logo/alt-logo.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo-long.png"
-  desktop_height: "32px"
+  desktop: "images/logo/alt-logo-long.jpg"
+  desktop_height: "40px"
 
 home: 
   limit_services: 6
