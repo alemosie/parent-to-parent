@@ -43,5 +43,3 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
-
-relative_permalinks: false
