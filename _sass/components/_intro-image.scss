@@ -32,3 +32,30 @@
     display: block;
   }
 }
+
+.intro-image-header { 
+  position: relative; 
+  height: 200px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 12px;
+  text-align: center;
+  background-color: $steel;
+
+  .intro-title {
+    padding: 5%;
+    color: $white-offset;
+  }
+}
+
+// Predefined header images per page
+#support-groups {
+  background-image: url("/images/alt-support-groups-banner.png");
+  background-position: top;
+}
+#first-year-program {
+  background-color: $dark;
+}

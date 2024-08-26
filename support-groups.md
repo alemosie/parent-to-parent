@@ -1,5 +1,6 @@
 ---
 title: Support groups
+id: support-groups
 layout: page
 description: Supporting your journey through parenting a little one
 intro_image: "images/illustrations/circle-hero.png"

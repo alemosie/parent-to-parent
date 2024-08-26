@@ -5,27 +5,24 @@ bodyClass: "page-basic"
 
 <div class="intro">
     <div class="container">
-      <div class="row justify-content-start">
+      <div class="row justify-content-center">
         {% if page.intro_image %}
-        <div class="col-12 col-md-12 col-lg-12">
-          <img 
-            alt={{ page.title }}
-            class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" 
-            src="{{ page.intro_image | relative_url }}" />
+        <div class="col-12 col-md-12 col-lg-12 intro-image-header" id={{page.id}}>
+          <h1 class="title intro-title">{{page.title}}</h1>
         </div>
         {% endif %}
       </div>
     </div>
   </div>
-</div>
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
+  <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
         <div class="col-12 col-md-8">
             <div>
-                <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
+              <h1>{{page.title}}</h1>
+              <div class="content">{{content}}</div>
             </div>
         </div>
     </div>
+  </div>
 </div>
