@@ -3,20 +3,32 @@ layout: default
 bodyClass: "page-home"
 ---
 
+<a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-1 text-dark lh-sm text-decoration-none" 
+  href="/calendar/" rel="noopener" target="_blank">
+  <div class="d-sm-inline-flex align-items-center py-2 px-3 me-2 mb-lg-0 rounded-5 announce-button">
+    <span>What's next:</span>
+    <span>€2 Sale next Friday</span>
+    <span>↗️</span>
+  </div>
+</a>
+
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-7 order-2 order-md-1">
         {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
       </div>
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+      <div class="col-12 col-md-9 col-lg-5 order-1 order-md-2 position-relative">
         <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
     </div>
+  </div>
+</div>
+
+
+<div class="container home-strip">
+    {% include calendar.html %}
   </div>
 </div>

@@ -2,23 +2,31 @@ main:
   - name: "About"
     url: "/about/"
     weight: 1
+    show: true
   - name: "Socials"
     url: "/socials/"
     weight: 5
+    show: true
   - name: "Support groups"
     url: "/support-groups/"
     weight: 4
+    show: true
   - name: "First year program"
     url: "/first-year/"
     weight: 3
+    show: false
   - name: "Contact"
     url: "/contact/"
     weight: 6
+    show: true
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
+  - name: "Calendar"
+    url: "/calendar/"
+    weight: 2
   - name: "Contact"
     url: "/contact/"
-    weight: 2
+    weight: 3

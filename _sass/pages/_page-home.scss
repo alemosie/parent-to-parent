@@ -1,2 +1,16 @@
 .page-home {
+  .announce-button {
+    background-color: $lime;
+    font-family: $headings-font-family;
+    gap: 3px !important;
+    &:hover {
+      background-color: darken($lime, 5%);
+    }
+  }
+  .home-strip {
+    padding: 0;
+  }
+  .calendar {
+    margin: 40px 0;
+  }
 }
