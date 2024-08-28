@@ -1,7 +1,7 @@
 ---
 title: Calendar
-layout: page
-description: Calendar
+layout: calendar
+description: The Parent to Parent Calendar
 ---
 
 <div class="row col-12 justfiy-content-center align-items-center calendar">
