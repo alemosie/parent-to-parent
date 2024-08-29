@@ -21,22 +21,8 @@
   }
 }
 
-.intro-image-header { 
-  position: relative; 
-  height: 200px;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  border-radius: 12px;
-  text-align: center;
-  background-color: $steel;
-
-  .intro-title {
-    padding: 5%;
-    color: $white-offset;
-  }
+.intro-image-container {
+  padding: 0;
 }
 
 // Predefined header images per page
